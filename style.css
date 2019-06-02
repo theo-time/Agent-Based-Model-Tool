@@ -1,0 +1,59 @@
+body
+{
+	font-family: helvetica, arial
+}
+
+#wrapper
+{
+	display: flex;
+	flex-direction: row;
+	height: 830px;
+	background: #fcd450;
+}
+
+#viz
+{
+	background: black;
+	width: 800;
+	height: 800;
+	padding: 15px;
+}
+
+#param
+{
+	flex: 1 1 auto;
+
+	display : flex;
+	flex-direction: column;
+	width : 400px;
+	height : 100% - 60px;
+	background: #46fc7d;
+}
+
+#newPop
+{
+	flex: 0 0 auto;
+	font-size: 20;
+}
+
+#defaultCanvas0
+{
+  top : 300;
+}
+
+#selectBlob
+{
+	/*width: 300px;*/
+	height: 200px;
+	margin: 20px;
+	background : rgba(0,0,20,0.3);
+	/*border: 2px black solid;*/
+	box-shadow: 
+	padding: 10px;
+}
+
+#Globals
+{
+	font-size: 20;
+	background: rgba(0,0,0,0.3);
+}
